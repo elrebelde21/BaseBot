@@ -1,0 +1,28 @@
+{
+  "name": "basebot",
+  "version": "1.0.0",
+  "type": "module",
+"scripts": {
+  "start": "NODE_ENV=production node index.js",
+  "dev": "tsx index.js",
+  "build": "tsc"
+},
+  "dependencies": {
+   "@whiskeysockets/baileys": "^6.7.16",
+    "chalk": "^5.3.0",
+    "pino": "^8.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "readline-sync": "^1.4.10",
+    "cfonts": "^3.3.0",
+    "yargs": "^17.7.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0",
+    "dotenv": "^16.3.1"
+  },
+  "author": {
+    "name": "elrebelde21"
+  }
+}
